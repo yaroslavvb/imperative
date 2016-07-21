@@ -1,4 +1,6 @@
 #!/bin/sh
+# script must be run from tests directory
+export PYTHONPATH=..:$PYTHONPATH
 BASEDIR=$(dirname "$0")
 echo "Running env_test.py"
 python $BASEDIR/env_test.py
