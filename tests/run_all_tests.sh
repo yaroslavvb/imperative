@@ -1,5 +1,6 @@
 #!/bin/sh
 BASEDIR=$(dirname "$0")
+export PYTHONPATH="$BASEDIR/..:$PYTHONPATH"
 echo "Running simple test"
 python $BASEDIR/simple.py
 echo "Running env_test.py"
