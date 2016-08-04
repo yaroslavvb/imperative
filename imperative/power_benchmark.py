@@ -9,7 +9,7 @@ except:
 env = imperative.Env(tf)
 
 n = 2024
-num_iters = 10
+num_iters = 100
 print("Trying %d power iterations with %d x %d matrices" %(num_iters, n, n))
 
 n_ops = n**3+n*n*(n-1)  # n**3 muls, n**2*(n-1) adds
